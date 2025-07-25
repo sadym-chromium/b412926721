@@ -1,12 +1,4 @@
-Repro for http://b/412926721.
-
+Selenium folder contains a script reproducing the issue. Run:
 ```sh
-npm run run
+python runtest.py
 ```
-
-1. Launch Chrome with installed extension.
-2. Open the extension manifest page.
-3. Close the page.
-4. Open another page.
-5. Close another page.
-

@@ -22,7 +22,7 @@ const extensionPath = path.resolve('.');
   await page.goto('chrome-extension://mkeohjlfgalobdegbiheindkfjmgkiem/manifest.json');
 
   console.log(`Closing page`);
-  await page.close()
+  await page.evaluate('window.close()')
   console.log(`Closed`);
 
   console.log(`Creating another page`);
